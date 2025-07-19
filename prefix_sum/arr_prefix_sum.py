@@ -16,5 +16,4 @@ print(arr)
 
 # sum of numbers from position 3 to position 7:
 print(arr[6] - arr[3-2])
-
 print(sum([15, 20, 25, 30, 35]))
