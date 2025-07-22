@@ -7,7 +7,7 @@ int main() {
     printf("Salary scanned: %.2lf\n", salary);
 
     double* ptr = &salary;
-    *ptr = (double)100.3;
+    *ptr = *ptr * 2;
 
     printf("Salary changed to: %.2lf\n", salary);
     return 0;
