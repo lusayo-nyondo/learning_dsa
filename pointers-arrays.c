@@ -5,6 +5,7 @@ int main() {
 
     for (int i = 0; i < 5; i++) {
         printf("%d = %p\n", numbers[i], &numbers[i]);
+        printf("%d = %p\n", *(numbers + i), numbers + i);
     }
 
     printf("Array Address of 1: %p\n", numbers);
